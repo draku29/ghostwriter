@@ -196,3 +196,11 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .author-meta span { display: block; margin: 18px 0; }
  .footer-copyright { padding: 0 10px; }
 }
+.post-header { text-align: left; padding: 0 8px 20px; text-transform: initial; border-bottom: 1px dashed #8a04d9; margin-bottom: 60px; }
+.post-header .post-title { text-align: left; text-transform: initial; }
+.site-title a, .button-square { background: #8a04d9; border-radius: 8px; }
+.post-stub { border-bottom: 1px dashed #8a04d9; text-decoration: #fffd00 underline 3px; text-shadow: #fffd00 .1em .05em .1em; }
+.post-stub a { color: #8a04d9; }
+body, h4 { font-size: 22px; }
+h3 { font-size: 26px; }
+pre { font-size: 20px; }
