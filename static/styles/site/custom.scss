@@ -1,55 +1,78 @@
-.site-header .site-title-wrapper {
-  display: initial;
+.site-header {
+  @media only screen and (max-width: 600px) {
+    padding-top: 0;
+    margin: 0 0 60px;
+  }
+
+  .site-title-wrapper {
+    display: initial;
+  }
 }
 
-.post-header {
-  text-align: left;
-  padding: 0 8px 20px;
-  text-transform: initial;
-  border-bottom: 1px dashed #8a04d9;
-  margin-bottom: 60px;
-  font-size: 42px;
-
-  color: #8a04d9;
-  //text-shadow: #fffd00 .1em .05em .1em;
-
-  .post-title {
+  .post-header {
     text-align: left;
+    padding: 0 8px 20px;
     text-transform: initial;
-    font-size: 104px;
-  }
-}
+    border-bottom: 1px dashed #8a04d9;
+    margin-bottom: 60px;
+    font-size: 7vh;
 
-.site-title a, .button-square {
-  font-size: 28px;
-  background: #8a04d9;
-  padding: 5px 10px 6px;
-  text-transform: initial;
-}
+    @media screen and (orientation:portrait){
+      font-size: 7vw;
+    }
 
-.button-square {
-  margin-left: 0;
-  border-left: #fffd00 dashed 1px;
-}
-
-.post-stub {
-  a {
     color: #8a04d9;
+    //text-shadow: #fffd00 .1em .05em .1em;
+
+    .post-title {
+      text-align: left;
+      text-transform: initial;
+      font-size: 12vh;
+
+      @media screen and (orientation:portrait){
+        font-size: 12vw;
+      }
+    }
   }
 
-  border-bottom: 1px dashed #8a04d9;
-  text-decoration: #fffd00 underline 3px;
-  text-shadow: #fffd00 .1em .05em .1em;
-}
+  .site-title a, .button-square {
+    font-size: 22px;
+    background: #8a04d9;
+    padding: 5px 10px 6px;
+    text-transform: initial;
 
-body, h4 {
-  font-size: 22px;
-}
+    @media only screen and (max-width: 600px) {
+      float: left;
+    }
+  }
 
-h3 {
-  font-size: 26px;
-}
+  .button-square {
+    margin-left: 0;
+    border-left: #fffd00 dashed 1px;
+  }
 
-pre {
-  font-size: 20px;
-}
+  .post-stub {
+    a {
+      color: #8a04d9;
+
+      h4, time {
+        text-decoration: #fffd00 underline 1px;
+      }
+    }
+
+    border-bottom: 1px dashed #8a04d9;
+    text-decoration: #fffd00 underline 3px;
+    text-shadow: #fffd00 .1em .05em .1em;
+  }
+
+  body, h4 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  pre {
+    font-size: 20px;
+  }
