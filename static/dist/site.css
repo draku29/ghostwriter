@@ -196,8 +196,9 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .author-meta span { display: block; margin: 18px 0; }
  .footer-copyright { padding: 0 10px; }
 }
+.site-header { margin: 0 0 60px; }
 @media only screen and (max-width: 600px) {
- .site-header { padding-top: 0; margin: 0 0 60px; }
+ .site-header { padding-top: 0; }
 }
 .site-header .site-title-wrapper { display: initial; }
 .post-header { text-align: left; padding: 0 8px 20px; text-transform: initial; border-bottom: 1px dashed #8a04d9; margin-bottom: 60px; font-size: 7vh; color: #8a04d9; }
@@ -212,6 +213,8 @@ table tr { border-bottom: 1px dotted #aeadad; }
 @media only screen and (max-width: 600px) {
  .site-title a, .button-square { float: left; }
 }
+.privacy-policy { text-align: center; }
+.privacy-policy a { color: #8a04d9; }
 .button-square { margin-left: 0; border-left: #fffd00 dashed 1px; }
 .post-stub { border-bottom: 1px dashed #8a04d9; text-decoration: #fffd00 underline 3px; text-shadow: #fffd00 .1em .05em .1em; }
 .post-stub a { color: #8a04d9; }
