@@ -18,7 +18,20 @@
             </div>
         </footer>
 
-        <script src="{{ .Site.BaseURL }}js/jquery-1.11.3.min.js"></script>
+
+            <script src="{{ .Site.BaseURL }}js/jquery-1.11.3.min.js"></script>
+            <script type="text/javascript" src="//ciasteczka.eu/cookiesEU-latest.min.js"></script>
+            <script type="text/javascript">
+
+              jQuery(document).ready(function(){
+                console.log('test');
+                jQuery.fn.cookiesEU({
+                  text: 'Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych. Dzięki nim możemy indywidualnie dostosować stronę do twoich potrzeb. Każdy może zaakceptować pliki cookies albo ma możliwość wyłączenia ich w przeglądarce, dzięki czemu nie będą zbierane żadne informacje. '
+
+                });
+              });
+
+            </script>
         <script src="{{ .Site.BaseURL }}js/jquery.fitvids.js"></script>
         <script src="{{ .Site.BaseURL }}js/scripts.js"></script>
     </body>
