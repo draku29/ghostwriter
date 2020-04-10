@@ -1,12 +1,18 @@
 .site-header {
-  margin: 0 0 60px;
+  //margin: 0 0 60px;
 
   @media only screen and (max-width: 600px) {
     padding-top: 0;
   }
 
   .site-title-wrapper {
-    display: initial;
+    //display: initial;
+    display: flex;
+    align-items: center;
+
+    .site-logo {
+      margin-right: 3em;
+    }
   }
 }
 

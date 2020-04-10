@@ -196,11 +196,11 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .author-meta span { display: block; margin: 18px 0; }
  .footer-copyright { padding: 0 10px; }
 }
-.site-header { margin: 0 0 60px; }
 @media only screen and (max-width: 600px) {
  .site-header { padding-top: 0; }
 }
-.site-header .site-title-wrapper { display: initial; }
+.site-header .site-title-wrapper { display: flex; align-items: center; }
+.site-header .site-title-wrapper .site-logo { margin-right: 3em; }
 .post-header { text-align: left; padding: 0 8px 20px; text-transform: initial; border-bottom: 1px dashed #8a04d9; margin-bottom: 60px; font-size: 7vh; color: #8a04d9; }
 @media screen and (orientation: portrait) {
  .post-header { font-size: 7vw; }
